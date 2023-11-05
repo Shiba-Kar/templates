@@ -1,0 +1,24 @@
+{
+    "projectId": "64fff1b78429690cbb74",
+    "projectName": "windope",
+    "functions": [
+        {
+            "$id": "6545064c84000e51ba00",
+            "name": "url_launcher",
+            "runtime": "dart-3.0",
+            "execute": [],
+            "events": [],
+            "schedule": "",
+            "timeout": 15,
+            "enabled": true,
+            "logging": true,
+            "entrypoint": "lib/main.dart",
+            "commands": "dart pub get",
+            "ignore": [
+                ".packages",
+                ".dart_tool"
+            ],
+            "path": "url_launcher"
+        }
+    ]
+}
